@@ -27,7 +27,7 @@ try {
 
     // Set up email message
     $mail->setFrom($email, $name);
-    $mail->addAddress('kaasiku56@gmail.com');
+    $mail->addAddress('kasksilja@gmail.com');
     $mail->Subject = 'Uus teade kliendilt ' . $name;
     $mail->Body = $message;
 
