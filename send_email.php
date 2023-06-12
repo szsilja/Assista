@@ -21,7 +21,7 @@ try {
     $mail->Host = 'smtp.zone.eu';
     $mail->SMTPAuth = true;
     $mail->Username = 'assista@ta21kask.itmajakas.ee';
-    $mail->Password = 'Salajane123';
+    $mail->Password = '';
     $mail->SMTPSecure = 'tls';
     $mail->Port = 587;
 
